@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Post;
+use App\Models\Comment;
 use Cviebrock\EloquentSluggable\Services\SlugService;
 
 class PostsController extends Controller
@@ -128,5 +129,23 @@ class PostsController extends Controller
         return redirect('/blog')
             ->with('message', 'Your post has been deleted!');
     }
+
+    public function postComment(Request $request)
+    {
+        $request->validate([
+            'name' => 'required',
+            'email' => 'required|email',
+            'comment_text' => 'required'
+        ]);
+
+        $data=$request->except('_token');
+        Comment::create($data);
+
+
+
+        return redirect('/blog')
+            ->with('message', 'Your post has been added!');
+    }
+
 }
 
