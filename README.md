@@ -1,49 +1,34 @@
-## Laravel 8 Complete Blog
+# TECHNO BLOGS
+![logo](https://i.ibb.co/5RXctw0/abdlogo.png)
+## Our blog will inspire you to know more about emerging technologies!
+### View our complete application at :- 
 
-This repository is linked to [this youtube video](https://www.youtube.com/watch?v=HKJDLXsTr8A&t=4710s) where I show you how to create a complete blog in Laravel 8 using best practices.
+### What We Offer
+* Publish your own blogs
+* Read through variety of blogs helpful for your future.
+* Comment on the blogs to make your blogging experience more fullfilling.
 
-•	Author: Code With Dary <br>
-•	Twitter: [@codewithdary](https://twitter.com/codewithdary) <br>
-•	Instagram: [@codewithdary](https://www.instagram.com/codewithdary/) <br>
+The Home Page
+![home](https://ibb.co/dWD805F)
+======
 
-## Requirements
-•	PHP 7.3 or higher <br>
-•	Node 12.13.0 or higher <br>
+A glimpse of our blogs
+![blogs](https://ibb.co/wwT0cJG)
+![blogs](https://ibb.co/nCsNqXY)
+======
 
-## Usage <br>
-Setting up your development environment on your local machine: <br>
-```
-git clone git@github.com:codewithdary/laravel-8-complete-blog.git
-cd laravel-8-complete-blog
-cp .env.example .env
-composer install
-php artisan key:generate
-php artisan cache:clear && php artisan config:clear
-php artisan serve
-```
 
-## Before starting <br>
-Create a database <br>
-```
-mysql
-create database laravelblog;
-exit;
-```
+Helpful Features We Offer to make your experience a memorable one
 
-Setup your database credentials in the .env file <br>
-```
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=laravelblog
-DB_USERNAME={USERNAME}
-DB_PASSWORD={PASSWORD}
-```
++ Comment and Interact 
 
-Migrate the tables
-```
-php artisan migrate
-```
+![tags](https://ibb.co/H4XNnGL)
+![tags](https://ibb.co/1RCvRj3)
 
-## Contributing
-Do not hesitate to contribute to the project by adapting or adding features ! Bug reports or pull requests are welcome.
+
+*Technologies we Used-*
+
+Usage | Framework 
+--- | --- 
+*Code* | `Laravel`
+*Styling* | `Tailwind` 
