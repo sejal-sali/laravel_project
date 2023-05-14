@@ -1,5 +1,4 @@
 # TECHNO BLOGS
-![logo](https://i.ibb.co/5RXctw0/abdlogo.png)
 ## Our blog will inspire you to know more about emerging technologies!
 ### View our complete application at :- 
 
